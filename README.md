@@ -1,16 +1,16 @@
-# React + Vite
+<h1>ryhanhxx porto's</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>Welcome to my portfolio landing page! This project showcases my work, skills, and experience as a UI/UX Designer and Developer. Built with the latest web technologies, this page is designed to provide a clean, modern, and professional look to highlight my design and development capabilities.</p>
 
-Currently, two official plugins are available:
+<h2>Contact</h2>
+<p>Feel free to reach out to me at:</p>
+<ul>
+    <li><strong>Email</strong>: ryhanhxx6@gmail.com</li>
+    <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/muhammad-rayhan-hakim-8ab419217/" target="_blank">LinkedIn | Muhammad Rayhan Hakim</a></li>
+</ul>
+<hr>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>Thank you for visiting my portfolio!</p>
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+</body>
+</html>
