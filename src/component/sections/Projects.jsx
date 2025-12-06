@@ -1,5 +1,11 @@
 import React from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
+import TB1 from "../img/Mirats.jpg";
+import TB2 from "../img/Attendly.jpg";
+import TB3 from "../img/Niaga.jpg";
+import TB4 from "../img/StayEase.jpg";
+import TB5 from "../img/Groovy.jpg";
+import TB6 from "../img/Bicyclone.jpg";
 
 const projects = [
   {
@@ -7,7 +13,7 @@ const projects = [
     title: "Al Mirats",
     description:
       "Easily and quickly calculate inheritance according to Sharia law accurate, reliable, and practical.",
-    image: "../public/img/Mirats.jpg",
+    image: TB1,
     tags: ["Kotlin", "Mobile", "User Interface"],
     demoUrl:
       "https://www.behance.net/gallery/206013453/Al-Mirats-Inheritance-Calculator-Mobile",
@@ -17,7 +23,7 @@ const projects = [
     title: "Attendly",
     description:
       "Attendly Innovative app redesigning and enforcing attendance discipline effectively.",
-    image: "../public/img/Attendly.jpg",
+    image: TB2,
     tags: ["Figma", "Photoshop", "User Interface"],
     demoUrl: "https://www.behance.net/gallery/210929763/Attendly",
   },
@@ -26,7 +32,7 @@ const projects = [
     title: "Niagahoster",
     description:
       "Niagahoster data shows almost 50% of visitors abandon their web hosting package.",
-    image: "../public/img/Niaga.jpg",
+    image: TB3,
     tags: ["Figma", "Photoshop", "User Interface"],
     demoUrl:
       "https://www.behance.net/gallery/218832149/Revamp-Niagahoster-Checkout",
@@ -36,7 +42,7 @@ const projects = [
     title: "Stay Ease",
     description:
       "Mobile application that offers a rent house like home stay, hotels, villa and etc, with a convenient location.",
-    image: "../public/img/StayEase.jpg",
+    image: TB4,
     tags: ["Figma", "Photoshop", "User Interface"],
     demoUrl: "https://www.behance.net/gallery/223636041/StayEase-Home-Stay-App",
   },
@@ -45,7 +51,7 @@ const projects = [
     title: "Groovy",
     description:
       "GroovyTones is an online vinyl's store, we want to convey a sense of nostalgia as well as life",
-    image: "../public/img/Groovy.jpg",
+    image: TB5,
     tags: ["Figma", "Photoshop", "User Interface"],
     demoUrl: "https://www.behance.net/gallery/185276865/Vinyl-Store-Mobile-App",
   },
@@ -54,7 +60,7 @@ const projects = [
     title: "Bicyclone",
     description:
       "Explore new routes and track your progress in real-time with our intuitive bicyclone tracking app.",
-    image: "../public/img/Bicyclone.jpg",
+    image: TB6,
     tags: ["React", "Node.js", "Stripe"],
     demoUrl: "https://www.behance.net/gallery/185277529/Bicyclone-Mobile-App",
   },

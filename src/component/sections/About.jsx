@@ -1,4 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import Photo from "../img/Photo.jpg";
+
+const photo = [{ id: 1, image: Photo }];
 
 export const About = () => {
   return (
@@ -41,11 +44,13 @@ export const About = () => {
             </div>
 
             <div className="grid grid-cols-1 gap-6">
-              <img
-                src="../public/img/Photo.jpg"
-                alt=""
-                className="rounded py-16 px-16 hidden md:block "
-              />
+              {photo.map((item) => (
+                <img
+                  src={item.image}
+                  alt=""
+                  className="rounded py-16 px-16 hidden md:block "
+                />
+              ))}
             </div>
           </div>
         </div>
