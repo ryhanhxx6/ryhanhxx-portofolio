@@ -61,7 +61,7 @@ const projects = [
     description:
       "Explore new routes and track your progress in real-time with our intuitive bicyclone tracking app.",
     image: TB6,
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["Figma", "Photoshop", "User Interface"],
     demoUrl: "https://www.behance.net/gallery/185277529/Bicyclone-Mobile-App",
   },
 ];
@@ -86,11 +86,11 @@ export const Projects = () => {
                 key={project.id}
                 className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover bg-gray-950"
               >
-                <div className="h-48 w-max overflow-hidden">
+                <div className="h-max w-full overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover"
+                    className="w-max h-max object-cover"
                   />
                 </div>
 
@@ -99,7 +99,7 @@ export const Projects = () => {
                     {project.tags.map((tag, index) => (
                       <span
                         key={index}
-                        className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground border-red-700"
+                        className="px-2 py-1 text-xs font-medium rounded bg-secondary text-secondary-foreground bg-red-900"
                       >
                         {tag}
                       </span>
@@ -118,7 +118,7 @@ export const Projects = () => {
                       <a
                         href={project.demoUrl}
                         target="_blank"
-                        className="bg-red-700 text-white py-2 px-4 text-sm rounded-full font-semibold transition relative overflow-hidden hover:bg-red-700 transition delay-150 hover:text-white>"
+                        className="border border-red-700 text-white py-2 px-4 text-sm rounded-full font-semibold transition relative overflow-hidden hover:bg-red-700 transition delay-150 hover:text-white>"
                       >
                         View Documentation
                       </a>
