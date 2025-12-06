@@ -99,7 +99,7 @@ export const Projects = () => {
                     {project.tags.map((tag, index) => (
                       <span
                         key={index}
-                        className="px-2 py-1 text-xs font-medium rounded bg-secondary text-secondary-foreground bg-red-900"
+                        className="px-2 py-1 text-xs font-medium rounded bg-secondary text-secondary-foreground bg-gray-800"
                       >
                         {tag}
                       </span>
@@ -109,7 +109,7 @@ export const Projects = () => {
                   <h3 className="text-xl font-semibold mb-1">
                     {project.title}
                   </h3>
-                  <p className="text-muted-foreground text-sm mb-6">
+                  <p className="text-muted-foreground text-sm mb-6 text-gray-400 ">
                     {project.description}
                   </p>
 
@@ -118,7 +118,7 @@ export const Projects = () => {
                       <a
                         href={project.demoUrl}
                         target="_blank"
-                        className="border border-red-700 text-white py-2 px-4 text-sm rounded-full font-semibold transition relative overflow-hidden hover:bg-red-700 transition delay-150 hover:text-white>"
+                        className=" bg-red-800 text-white py-2 px-4 text-sm rounded-lg font-semibold transition relative overflow-hidden hover:bg-red-700 transition delay-150 hover:text-white>"
                       >
                         View Documentation
                       </a>

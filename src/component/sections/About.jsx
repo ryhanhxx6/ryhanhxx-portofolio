@@ -8,9 +8,11 @@ export const About = () => {
     <section id="about" className="py-24 px-4 relative">
       <RevealOnScroll>
         <div className="container mx-auto max-w-5xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
             About <span className="text-red-600"> Me</span>
           </h2>
+
+          <p className="text-center">Fresh Graduate of Informatics Engineering | Graphic Design Enthusiast | UI/UX Design Enthusiast | Passionate about Technology, Design, Research, and Development</p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">

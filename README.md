@@ -2,6 +2,9 @@
 
 <p>Welcome to my portfolio landing page! This project showcases my work, skills, and experience as a UI/UX Designer and Developer. Built with the latest web technologies, this page is designed to provide a clean, modern, and professional look to highlight my design and development capabilities.</p>
 
+<h2>Live Demo</h2>
+<p>Check out the live demo of my portfolio at <a href="https://ryhanhxx-portofolio.vercel.app/" target="_blank">https://ryhanhxx-portofolio.vercel.app/</a>.</p>
+
 <h2>Contact</h2>
 <p>Feel free to reach out to me at:</p>
 <ul>
