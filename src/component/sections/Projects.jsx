@@ -99,7 +99,7 @@ export const Projects = () => {
                     {project.tags.map((tag, index) => (
                       <span
                         key={index}
-                        className="px-2 py-1 text-xs font-medium rounded bg-secondary text-secondary-foreground bg-gray-800"
+                        className="px-2 py-1 text-xs font-medium rounded bg-secondary text-secondary-foreground bg-gray-900"
                       >
                         {tag}
                       </span>
@@ -118,7 +118,7 @@ export const Projects = () => {
                       <a
                         href={project.demoUrl}
                         target="_blank"
-                        className=" bg-red-800 text-white py-2 px-4 text-sm rounded-lg font-semibold transition relative overflow-hidden hover:bg-red-700 transition delay-150 hover:text-white>"
+                        className=" bg-gray-800 text-white py-2 px-4 text-sm rounded-lg font-semibold transition relative overflow-hidden hover:bg-red-700 transition delay-150 hover:text-white>"
                       >
                         View Documentation
                       </a>
@@ -128,6 +128,8 @@ export const Projects = () => {
               </div>
             ))}
           </div>
+
+          
         </div>
       </RevealOnScroll>
     </section>

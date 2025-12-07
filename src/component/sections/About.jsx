@@ -12,22 +12,24 @@ export const About = () => {
             About <span className="text-red-600"> Me</span>
           </h2>
 
-          <p className="text-center">Fresh Graduate of Informatics Engineering | Graphic Design Enthusiast | UI/UX Design Enthusiast | Passionate about Technology, Design, Research, and Development</p>
+          <h3 className="text-center mb-6">
+            Fresh Graduate in Informatics Engineering with a passion for Design
+            & Tech
+          </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h3 className="text-md font-semibold ">
-                Passionate <span className="text-red-500">Product Design</span>{" "}
-                & <span className="text-red-500">Graphic Design</span>
-              </h3>
               <p className="text-gray-400 text-md">
                 I recently graduated from YARSI University with a degree in
-                Informatics Engineering. I’m passionate about bringing ideas to
-                life through creative digital solutions and always eager to
-                explore new technologies. Along the way, I’ve taken various
-                courses in IT, design, and digital marketing to broaden my
-                skills. I enjoy learning new things, embracing challenges, and
-                working collaboratively with others.
+                Informatics Engineering. I’m passionate about{" "}
+                <span className="text-red-400">
+                  bringing ideas to life through creative digital solutions and
+                  always eager to explore new technologies.
+                </span>{" "}
+                Along the way, I’ve taken various courses in IT, design, and
+                digital marketing to broaden my skills. I enjoy learning new
+                things, embracing challenges, and working collaboratively with
+                others.
               </p>
               <div className="flex justify-left space-x-4">
                 <a
@@ -50,7 +52,7 @@ export const About = () => {
                 <img
                   src={item.image}
                   alt=""
-                  className="rounded py-16 px-16 hidden md:block "
+                  className="rounded-b-full py-16 px-16 hidden md:block "
                 />
               ))}
             </div>

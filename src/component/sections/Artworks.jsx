@@ -30,7 +30,7 @@ const graphicDesigns = [
   { id: 29, image: Socmed6 },
   { id: 30, image: Socmed1 },
   { id: 31, image: Socmed9 },
-  { id: 32, image: Socmed11},
+  { id: 32, image: Socmed11 },
   { id: 33, image: Socmed10 },
   { id: 34, image: Socmed13 },
 ];
