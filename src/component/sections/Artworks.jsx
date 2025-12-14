@@ -16,6 +16,7 @@ import Socmed10 from "../img/Social-Media-10.jpg";
 import Socmed11 from "../img/Social-Media-11.jpg";
 import Socmed12 from "../img/Social-Media-12.jpg";
 import Socmed13 from "../img/Social-Media-13.jpg";
+import Socmed14 from "../img/Social-Media-14.jpg";
 
 const graphicDesigns = [
   { id: 20, image: Poster2 },
@@ -29,7 +30,7 @@ const graphicDesigns = [
   { id: 28, image: Socmed5 },
   { id: 29, image: Socmed6 },
   { id: 30, image: Socmed1 },
-  { id: 31, image: Socmed9 },
+  { id: 31, image: Socmed14 },
   { id: 32, image: Socmed11 },
   { id: 33, image: Socmed10 },
   { id: 34, image: Socmed13 },
