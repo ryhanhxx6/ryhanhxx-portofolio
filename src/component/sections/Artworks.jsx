@@ -17,6 +17,8 @@ import Socmed11 from "../img/Social-Media-11.jpg";
 import Socmed12 from "../img/Social-Media-12.jpg";
 import Socmed13 from "../img/Social-Media-13.jpg";
 import Socmed14 from "../img/Social-Media-14.jpg";
+import Banner1 from "../img/Banner-1.jpg";
+import Banner2 from "../img/Banner-2.jpg";
 
 const graphicDesigns = [
   { id: 20, image: Poster2 },
@@ -34,6 +36,8 @@ const graphicDesigns = [
   { id: 32, image: Socmed11 },
   { id: 33, image: Socmed10 },
   { id: 34, image: Socmed13 },
+  { id: 35, image: Banner1, colSpan: 3},
+  { id: 36, image: Banner2, colSpan: 3},
 ];
 
 export const Artworks = () => {
@@ -50,11 +54,15 @@ export const Artworks = () => {
         </p>
 
         {/* GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {graphicDesigns.map((item) => (
             <div
               key={item.id}
-              className="group bg-card rounded-lg overflow-hidden"
+              className={`group bg-card rounded-lg overflow-hidden
+                ${item.colSpan ? "lg:col-span-3": ""}
+                ${item.id === 33 ? "hidden lg:block" : ""}
+                ${item.id === 22 ? "hidden lg:block" : ""}
+                ${item.id === 26 ? "hidden lg:block" : ""}`}
             >
               <RevealOnScroll>
                 <div className="h-full md:h-full lg:h-full w-full overflow-hidden rounded-lg">
