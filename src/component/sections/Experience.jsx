@@ -1,6 +1,6 @@
 const experiences = [
   {
-    period: "Dec 2024 - Jan 2025",
+    period: "Nov 2024 - Jan 2025",
     role: "UI/UX Designer Internship",
     company: "GAOtek, Inc",
     description:
