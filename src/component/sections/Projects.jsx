@@ -91,7 +91,7 @@ export const Projects = () => {
                     <img
                       src={project.image}
                       alt={project.title}
-                      className="w-max h-max object-cover"
+                      className="w-max h-max object-cover rounded-t"
                     />
                   </div>
 
