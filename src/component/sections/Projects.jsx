@@ -22,7 +22,7 @@ const projects = [
     id: 2,
     title: "Attendly",
     description:
-      "Attendly Innovative app redesigning and enforcing attendance discipline effectively.",
+      "Attendly Innovative app redesigning and enforcing attendance discipline effectively enhanced.",
     image: TB2,
     tags: ["Figma", "Photoshop", "User Interface"],
     demoUrl: "https://www.behance.net/gallery/210929763/Attendly",
@@ -71,11 +71,11 @@ export const Projects = () => {
     <section id="projects" className="py-24 px-4 relative">
       <RevealOnScroll>
         <div className="container mx-auto max-w-5xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
             Featured <span className="text-red-600">Projects</span>
           </h2>
 
-          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+          <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
             Here are some of my recent projects. Each one was crafted with care,
             focusing on performance and user experience.
           </p>
@@ -84,52 +84,40 @@ export const Projects = () => {
             {projects.map((project) => (
               <div
                 key={project.id}
-                className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover bg-gray-950"
+                className="glass rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500 "
               >
-                <div className="h-max w-full overflow-hidden">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-max h-max object-cover"
-                  />
-                </div>
-
-                <div className="p-6">
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {project.tags.map((tag, index) => (
-                      <span
-                        key={index}
-                        className="px-2 py-1 text-xs font-medium rounded bg-secondary text-secondary-foreground bg-gray-900"
-                      >
-                        {tag}
-                      </span>
-                    ))}
+                <a href={project.demoUrl}>
+                  <div className="h-max w-full overflow-hidden">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-max h-max object-cover"
+                    />
                   </div>
 
-                  <h3 className="text-xl font-semibold mb-1">
-                    {project.title}
-                  </h3>
-                  <p className="text-muted-foreground text-sm mb-6 text-gray-400 ">
-                    {project.description}
-                  </p>
-
-                  <div className="flex justify-between items-center">
-                    <div className="flex space-x-3">
-                      <a
-                        href={project.demoUrl}
-                        target="_blank"
-                        className=" bg-gray-800 text-white py-2 px-4 text-sm rounded-lg font-semibold transition relative overflow-hidden hover:bg-red-700 transition delay-150 hover:text-white>"
-                      >
-                        View Documentation
-                      </a>
+                  <div className="p-6">
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      {project.tags.map((tag, index) => (
+                        <span
+                          key={index}
+                          className="px-2 py-1 text-xs font-medium rounded bg-secondary text-muted-foreground"
+                        >
+                          {tag}
+                        </span>
+                      ))}
                     </div>
+
+                    <h3 className="text-xl font-semibold mb-1">
+                      {project.title}
+                    </h3>
+                    <p className="text-muted-foreground text-sm mb-6 ">
+                      {project.description}
+                    </p>
                   </div>
-                </div>
+                </a>
               </div>
             ))}
           </div>
-
-          
         </div>
       </RevealOnScroll>
     </section>

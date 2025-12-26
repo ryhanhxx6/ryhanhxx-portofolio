@@ -5,6 +5,8 @@ import { MobileMenu } from "./component/MobileMenu";
 import { Home } from "./component/sections/Home";
 import { Contact } from "./component/sections/Contact";
 import { About } from "./component/sections/About";
+import { Competence } from "./component/sections/Competence";
+import { Experience } from "./component/sections/Experience";
 import { Projects } from "./component/sections/Projects";
 import { Artworks } from "./component/sections/Artworks";
 import { Freelance } from "./component/sections/Freelance";
@@ -21,6 +23,8 @@ function App() {
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home />
       <About />
+      <Competence />
+      <Experience />
       <Projects />
       <Artworks />
       <Freelance />

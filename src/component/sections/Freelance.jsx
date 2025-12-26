@@ -8,11 +8,11 @@ export const Freelance = () => {
     <section id="freelance" className="py-24 px-4 relative">
       <RevealOnScroll>
         <div className="container mx-auto max-w-5xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
             Desig<span className="text-red-600">noir</span>
           </h2>
 
-          <h3 className="text-center mb-12">
+          <h3 className="text-center mb-10 text-muted-foreground">
             Creative Vision, Executed with Precision.
           </h3>
 
@@ -28,12 +28,12 @@ export const Freelance = () => {
             </div>
 
             <div className="space-y-6">
-              <p className="text-gray-400 text-md">
+              <p className="text-md text-muted-foreground">
                 Your ideas, elevated. Crafting elegant designs. Delivering
                 polished, impactful, and clear brands that have a touch that
                 dare to stand out. Ready to transform your brand narrative?
                 Explore my featured projects below, where{" "}
-                <span className="text-red-400">
+                <span className="text-red-600">
                   every pixel is crafted to communicate confidence and style.
                 </span>{" "}
                 Let’s build something extraordinary together.

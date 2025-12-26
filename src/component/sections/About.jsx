@@ -1,6 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import Photo from "../img/Photo.jpg";
 
+
 const photo = [{ id: 1, image: Photo }];
 
 export const About = () => {
@@ -8,21 +9,21 @@ export const About = () => {
     <section id="about" className="py-24 px-4 relative">
       <RevealOnScroll>
         <div className="container mx-auto max-w-5xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
             About <span className="text-red-600"> Me</span>
           </h2>
 
-          <h3 className="text-center mb-6">
+          <h3 className="text-center mb-6 secondary-text text-muted-foreground">
             Fresh Graduate in Informatics Engineering with a passion for Design
             & Tech
           </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div className="space-y-6">
-              <p className="text-gray-400 text-md">
+              <p className="text-md text-muted-foreground">
                 I recently graduated from YARSI University with a degree in
                 Informatics Engineering. I’m passionate about{" "}
-                <span className="text-red-400">
+                <span className="text-red-600">
                   bringing ideas to life through creative digital solutions and
                   always eager to explore new technologies.
                 </span>{" "}

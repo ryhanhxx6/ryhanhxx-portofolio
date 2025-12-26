@@ -44,11 +44,11 @@ export const Artworks = () => {
   return (
     <section id="artworks" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
           Art<span className="text-red-600">works</span>
         </h2>
 
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
           A collection of my graphic design works crafted with creativity and
           attention to detail.
         </p>
@@ -65,7 +65,7 @@ export const Artworks = () => {
                 ${item.id === 26 ? "hidden lg:block" : ""}`}
             >
               <RevealOnScroll>
-                <div className="h-full md:h-full lg:h-full w-full overflow-hidden rounded-lg">
+                <div className="h-full md:h-full lg:h-full w-full overflow-hidden rounded-lg color-card">
                   <img
                     src={item.image}
                     alt={`Graphic Design ${item.id}`}
