@@ -13,11 +13,11 @@ import Socmed7 from "../img/Social-Media-7.jpg";
 import Socmed8 from "../img/Social-Media-8.jpg";
 import Socmed9 from "../img/Social-Media-9.jpg";
 import Socmed10 from "../img/Social-Media-10.jpg";
-import Socmed11 from "../img/Social-Media-11.jpg";
+import Socmed11 from "../img/Social-Media-11.gif";
 import Socmed12 from "../img/Social-Media-12.jpg";
-import Socmed13 from "../img/Social-Media-13.jpg";
+import Socmed13 from "../img/Social-Media-13.gif";
 import Socmed14 from "../img/Social-Media-14.jpg";
-import Banner1 from "../img/Banner-1.jpg";
+import Banner1 from "../img/Banner-1.gif";
 import Banner2 from "../img/Banner-2.jpg";
 
 const graphicDesigns = [
@@ -38,6 +38,7 @@ const graphicDesigns = [
   { id: 34, image: Socmed13 },
   { id: 35, image: Banner1, colSpan: 3},
   { id: 36, image: Banner2, colSpan: 3},
+
 ];
 
 export const Artworks = () => {
