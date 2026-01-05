@@ -17,6 +17,9 @@ import Socmed11 from "../img/Social-Media-11.gif";
 import Socmed12 from "../img/Social-Media-12.jpg";
 import Socmed13 from "../img/Social-Media-13.gif";
 import Socmed14 from "../img/Social-Media-14.jpg";
+import Socmed15 from "../img/Social-Media-15.jpg";
+import Socmed16 from "../img/Social-Media-16.jpg";
+import Socmed17 from "../img/Social-Media-17.jpg";
 import Banner1 from "../img/Banner-1.gif";
 import Banner2 from "../img/Banner-2.jpg";
 
@@ -31,13 +34,17 @@ const graphicDesigns = [
   { id: 27, image: Socmed2 },
   { id: 28, image: Socmed5 },
   { id: 29, image: Socmed6 },
-  { id: 30, image: Socmed1 },
-  { id: 31, image: Socmed14 },
-  { id: 32, image: Socmed11 },
-  { id: 33, image: Socmed10 },
-  { id: 34, image: Socmed13 },
-  { id: 35, image: Banner1, colSpan: 3},
-  { id: 36, image: Banner2, colSpan: 3},
+  { id: 30, image: Socmed14 },
+  { id: 31, image: Socmed1 },
+  { id: 32, image: Socmed16 },
+  { id: 33, image: Socmed15 },
+  { id: 34, image: Socmed17 },
+
+  { id: 35, image: Socmed11 },
+  { id: 36, image: Socmed10 },
+  { id: 37, image: Socmed13 },
+  { id: 38, image: Banner1, colSpan: 3},
+  { id: 39, image: Banner2, colSpan: 3},
 
 ];
 
