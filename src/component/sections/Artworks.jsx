@@ -20,6 +20,9 @@ import Socmed14 from "../img/Social-Media-14.jpg";
 import Socmed15 from "../img/Social-Media-15.jpg";
 import Socmed16 from "../img/Social-Media-16.jpg";
 import Socmed17 from "../img/Social-Media-17.jpg";
+import Socmed18 from "../img/Social-Media-18.jpg";
+import Socmed19 from "../img/Social-Media-19.jpg";
+import Socmed20 from "../img/Social-Media-20.jpg";
 import Banner1 from "../img/Banner-1.gif";
 import Banner2 from "../img/Banner-2.jpg";
 
@@ -43,9 +46,12 @@ const graphicDesigns = [
   { id: 35, image: Socmed11 },
   { id: 36, image: Socmed10 },
   { id: 37, image: Socmed13 },
-  { id: 38, image: Banner1, colSpan: 3},
-  { id: 39, image: Banner2, colSpan: 3},
+  { id: 38, image: Socmed18 },
+  { id: 39, image: Socmed19 },
+  { id: 40, image: Socmed20 },
 
+  { id: 41, image: Banner1, colSpan: 3 },
+  { id: 42, image: Banner2, colSpan: 3 },
 ];
 
 export const Artworks = () => {
@@ -67,7 +73,7 @@ export const Artworks = () => {
             <div
               key={item.id}
               className={`group bg-card rounded-lg overflow-hidden
-                ${item.colSpan ? "lg:col-span-3": ""}
+                ${item.colSpan ? "lg:col-span-3" : ""}
                 ${item.id === 33 ? "hidden lg:block" : ""}
                 ${item.id === 22 ? "hidden lg:block" : ""}
                 ${item.id === 26 ? "hidden lg:block" : ""}`}
