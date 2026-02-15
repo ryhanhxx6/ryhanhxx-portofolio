@@ -49,7 +49,6 @@ const graphicDesigns = [
   { id: 40, image: Socmed20 },
 
   { id: 41, image: Banner1, colSpan: 3 },
-  { id: 42, image: Banner2, colSpan: 3 },
 ];
 
 export const Artworks = () => {
