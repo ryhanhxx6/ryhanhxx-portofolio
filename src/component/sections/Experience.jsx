@@ -2,6 +2,20 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 const experiences = [
   {
+    period: "Jan 2026 - Apr 2026",
+    role: "Graphic Design Internship",
+    company: "RED Communication",
+    description:
+      "I interned at a large creative agency as a graphic designer, handling social media, especially Instagram for Trakindo, and supporting content needs for Xiaomi projects.",
+    technologies: [
+      "Photoshop",
+      "Product Design",
+      "Collaboration",
+      "Motion Graphic",
+    ],
+    current: true,
+  },
+  {
     period: "Nov 2024 - Jan 2025",
     role: "UI/UX Designer Internship",
     company: "GAOtek, Inc",
@@ -13,7 +27,7 @@ const experiences = [
       "Collaboration",
       "User Interface",
     ],
-    current: true,
+    current: false,
   },
   {
     period: "Jul 2024 - Oct 2024",
