@@ -6,12 +6,13 @@ const experiences = [
     role: "Graphic Design Internship",
     company: "RED Communication",
     description:
-      "I interned at a large creative agency as a graphic designer, handling social media, especially Instagram for Trakindo, and supporting content needs for Xiaomi projects.",
+      "I interned at a large creative agency as a graphic designer, handling social media, mainly Instagram for Trakindo, supporting content needs for Xiaomi projects, and etc.",
     technologies: [
+      "After Effects",
       "Photoshop",
-      "Product Design",
-      "Collaboration",
-      "Motion Graphic",
+      "Premiere",
+      "Graphic Design",
+      "Product Design"
     ],
     current: true,
   },
@@ -24,7 +25,7 @@ const experiences = [
     technologies: [
       "Figma",
       "Product Design",
-      "Collaboration",
+      "Behance",
       "User Interface",
     ],
     current: false,
@@ -35,7 +36,7 @@ const experiences = [
     company: "Digimarly",
     description:
       "Deepened design fundamentals, created UMKM social media content, mentored peers, and collaborated cross-functionally to deliver impactful digital strategies.",
-    technologies: ["Photoshop", "Design", "Scoial Media Design"],
+    technologies: ["Photoshop", "Design", "Scoial Media Design", "Figma"],
     current: false,
   },
   {
@@ -44,7 +45,7 @@ const experiences = [
     company: "Binar Academy - Kampus Merdeka Program",
     description:
       "Built Android apps using Kotlin, applying core principles, UI concepts, persistence layers, server integration, and collaborative development via GitHub.",
-    technologies: ["Android Studio", "Slicing UI", "Mobile"],
+    technologies: ["Android Studio", "Slicing UI", "Mobile", "Kotlin"],
     current: false,
   },
   {
