@@ -11,8 +11,7 @@ const experiences = [
       "After Effects",
       "Photoshop",
       "Premiere",
-      "Graphic Design",
-      "Product Design"
+      "Social Media"
     ],
     current: true,
   },
