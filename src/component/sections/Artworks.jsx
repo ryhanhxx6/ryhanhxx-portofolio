@@ -21,8 +21,16 @@ import Socmed17 from "../img/Social-Media-17.jpg";
 import Socmed18 from "../img/Social-Media-18.jpg";
 import Socmed19 from "../img/Social-Media-19.jpg";
 import Socmed20 from "../img/Social-Media-20.jpg";
-import Banner1 from "../img/Banner-1.gif";
-import Banner2 from "../img/Banner-2.jpg";
+import Socmed21 from "../img/Social-Media-21.jpg";
+import Socmed22 from "../img/Social-Media-22.jpg";
+import Socmed23 from "../img/Social-Media-23.jpg";
+import Socmed24 from "../img/Social-Media-24.gif";
+import Socmed25 from "../img/Social-Media-25.jpg";
+import Socmed26 from "../img/Social-Media-26.jpg";
+import Socmed27 from "../img/Social-Media-27.gif";
+import Socmed28 from "../img/Social-Media-28.jpg";
+import Socmed29 from "../img/Social-Media-29.jpg";
+import Socmed30 from "../img/Social-Media-30.gif";
 
 const graphicDesigns = [
   { id: 20, image: Poster2 },
@@ -48,7 +56,13 @@ const graphicDesigns = [
   { id: 39, image: Socmed19 },
   { id: 40, image: Socmed20 },
 
-  { id: 41, image: Banner1, colSpan: 3 },
+  { id: 41, image: Socmed21 },
+  { id: 42, image: Socmed22 },
+  { id: 43, image: Socmed23 },
+  { id: 44, image: Socmed24 },
+  { id: 45, image: Socmed30 },
+  { id: 46, image: Socmed27 },
+  
 ];
 
 export const Artworks = () => {
@@ -87,6 +101,8 @@ export const Artworks = () => {
             </div>
           ))}
         </div>
+
+
       </div>
     </section>
   );
