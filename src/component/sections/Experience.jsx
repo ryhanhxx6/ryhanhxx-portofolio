@@ -71,7 +71,7 @@ export const Experience = () => {
           Carrer <span className="text-red-600">Journey</span>
         </h2>
 
-        <h3 className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
+        <h3 className="text-center text-muted-foreground mb-28 max-w-2xl mx-auto">
           A continuous journey of learning, collaboration, and growth through
           hands-on projects, real-world challenges, and creative
           problem-solving.
@@ -79,7 +79,6 @@ export const Experience = () => {
         <RevealOnScroll>
           <div className="relative">
             <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-primary/70 via-primary/30 to-transparent md:-translate-x-1/2 shadow-[0_0_25px_rgba(255,0,0,0.8)]" />
-
             {/* Experience Items */}
             <div className="space-y-12">
               {experiences.map((exp, idx) => (

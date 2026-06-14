@@ -1,24 +1,22 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import Photo from "../img/Photo.jpg";
 
-
 const photo = [{ id: 1, image: Photo }];
 
 export const About = () => {
   return (
     <section id="about" className="py-24 px-4 relative">
       <RevealOnScroll>
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
             About <span className="text-red-600"> Me</span>
           </h2>
 
-          <h3 className="text-center mb-6 secondary-text text-muted-foreground">
-            A passion for Design
-            & Tech
+          <h3 className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
+            Interest in Design & Tech
           </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-md text-muted-foreground">
                 I’m passionate about{" "}
@@ -47,12 +45,12 @@ export const About = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 gap-6">
+            <div className="grid grid-cols-1 gap-6 py-25 px-25">
               {photo.map((item) => (
                 <img
                   src={item.image}
                   alt=""
-                  className="rounded-b-full py-16 px-16 hidden md:block "
+                  className="hidden md:block rounded-xl"
                 />
               ))}
             </div>

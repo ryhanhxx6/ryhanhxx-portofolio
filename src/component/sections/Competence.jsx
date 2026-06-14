@@ -33,11 +33,11 @@ export const Competence = () => {
           Compe<span className="text-red-600">tence</span>
         </h2>
 
-        <h3 className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
+        <h3 className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto ">
           Focused on delivering creative and functional design solutions through a strong blend of visual aesthetics, usability, and emerging technologies.
         </h3>
 
-        <div className="grid sm:grid-cols-4 gap-6 flex justify-center px-auto mt-6 lg:px-60">
+        <div className="grid sm:grid-cols-4 gap-6 flex justify-center py-16 mt-6 lg:px-60">
           {highlights.map((item, idx) => (
             <div
               key={idx}

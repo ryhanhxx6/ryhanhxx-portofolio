@@ -56,8 +56,8 @@ const graphicDesigns = [
   { id: 39, image: Socmed19 },
   { id: 40, image: Socmed20 },
 
-  { id: 41, image: Socmed21 },
-  { id: 42, image: Socmed22 },
+  { id: 41, image: Socmed22 },
+  { id: 42, image: Socmed21 },
   { id: 43, image: Socmed23 },
   { id: 44, image: Socmed24 },
   { id: 45, image: Socmed30 },
@@ -79,7 +79,7 @@ export const Artworks = () => {
         </p>
 
         {/* GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-12">
           {graphicDesigns.map((item) => (
             <div
               key={item.id}
