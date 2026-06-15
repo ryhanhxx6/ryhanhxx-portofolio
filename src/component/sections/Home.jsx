@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import TypewriterText from "../TypewriterText";
 
 export const Home = () => {
   return (
@@ -12,10 +13,12 @@ export const Home = () => {
             Hello
           </h1>
 
-          <p className="text-md mb-8 max-w-3xl mx-auto text-muted-foreground">
-            Build designs that feel thoughtful, intuitive, and
-            visually engaging.
-          </p>
+          <TypewriterText
+            text="Build designs that feel thoughtful, intuitive, and visually engaging."
+            speed={60}
+            className="text-md mb-8 max-w-3xl mx-auto text-muted-foreground"
+          />
+
           <div className="flex justify-center space-x-4">
             <a
               href="#projects"
