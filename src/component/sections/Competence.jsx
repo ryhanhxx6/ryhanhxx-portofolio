@@ -37,7 +37,7 @@ export const Competence = () => {
           Focused on delivering creative and functional design solutions through a strong blend of visual aesthetics, usability, and emerging technologies.
         </h3>
 
-        <div className="grid sm:grid-cols-4 gap-6 flex justify-center py-16 mt-6 lg:px-60">
+        <div className="grid grid-cols-2 p-2 sm:grid-cols-4 gap-6 flex justify-center py-16 mt-6 lg:px-60">
           {highlights.map((item, idx) => (
             <div
               key={idx}

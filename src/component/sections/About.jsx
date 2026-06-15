@@ -13,7 +13,7 @@ export const About = () => {
           </h2>
 
           <h3 className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
-            Interest in Design & Tech
+            Continuously exploring emerging technologies and design trends to deliver innovative and effective results.
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">

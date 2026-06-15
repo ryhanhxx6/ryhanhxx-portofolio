@@ -6,6 +6,7 @@ import { Home } from "./component/sections/Home";
 import { Contact } from "./component/sections/Contact";
 import { About } from "./component/sections/About";
 import { Competence } from "./component/sections/Competence";
+import { Softwares } from "./component/sections/Softwares";
 import { Experience } from "./component/sections/Experience";
 import { Projects } from "./component/sections/Projects";
 import { Artworks } from "./component/sections/Artworks";
@@ -24,6 +25,7 @@ function App() {
       <Home />
       <About />
       <Competence />
+      <Softwares />
       <Experience />
       <Projects />
       <Artworks />

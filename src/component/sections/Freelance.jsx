@@ -5,7 +5,7 @@ const photo = [{ id: 1, image: Image }];
 
 export const Freelance = () => {
   return (
-    <section id="freelance" className="py-24 px-4 relative">
+    <section id="freelance" className="py-24 px-6 relative">
       <RevealOnScroll>
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
@@ -16,12 +16,12 @@ export const Freelance = () => {
             Creative Vision, Executed with Precision.
           </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 py-16 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:py-10 items-center">
             {photo.map((item) => (
-              <img src={item.image} alt="" className="bg-origin-content" />
+              <img src={item.image} alt="" className="md:block rounded-xl" />
             ))}
 
-            <div className="grid grid-cols-1 md:grid-cols-1 gap-10 items-center">
+            <div className="grid md:grid-cols-1 gap-10 items-center">
               <div className="space-y-6">
                 <p className="text-md text-muted-foreground">
                   Your ideas, elevated. Crafting elegant designs. Delivering
