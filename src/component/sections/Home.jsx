@@ -8,12 +8,12 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-4xl md:text-4xl font-bold mb-2 bg-gradient-to-l from-red-500 to-red-900 bg-clip-text text-transparent leading-right">
-            MUHAMMAD RAYHAN HAKIM
+          <h1 className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-l from-red-500 to-red-900 bg-clip-text text-transparent leading-right">
+            Hello
           </h1>
 
           <p className="text-md mb-8 max-w-3xl mx-auto text-muted-foreground">
-            I love crafting designs that feel thoughtful, intuitive, and
+            Build designs that feel thoughtful, intuitive, and
             visually engaging.
           </p>
           <div className="flex justify-center space-x-4">

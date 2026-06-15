@@ -19,7 +19,7 @@ export const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-md text-muted-foreground">
-                I’m passionate about{" "}
+                I’m Rayhan, i try{" "}
                 <span className="text-red-600">
                   bringing ideas to life through creative digital solutions and
                   always eager to explore new technologies.
