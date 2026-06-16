@@ -1,5 +1,10 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import TypewriterText from "../TypewriterText";
+import ShinyText from "../../components/ShinyText";
+
+const handleAnimationComplete = () => {
+  console.log("All letters have animated!");
+};
 
 export const Home = () => {
   return (
@@ -9,9 +14,19 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-l from-red-500 to-red-900 bg-clip-text text-transparent leading-right">
-            Hello
-          </h1>
+          <ShinyText
+            className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-l from-red-500 to-red-900 bg-clip-text text-transparent leading-right"
+            text="Hello"
+            speed={2}
+            delay={0}
+            color="#dc2626"
+            shineColor="rgb(255, 137, 137)"
+            spread={120}
+            direction="left"
+            yoyo={false}
+            pauseOnHover={false}
+            disabled={false}
+          />
 
           <TypewriterText
             text="Build designs that feel thoughtful, intuitive, and visually engaging."
