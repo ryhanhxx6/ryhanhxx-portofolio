@@ -6,8 +6,8 @@ const photo = [{ id: 1, image: Image }];
 export const Freelance = () => {
   return (
     <section id="freelance" className="py-24 px-6 relative">
-      <RevealOnScroll>
-        <div className="container mx-auto max-w-6xl">
+      <div className="container mx-auto max-w-6xl">
+        <RevealOnScroll>
           <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
             Desig<span className="text-red-600">noir</span>
           </h2>
@@ -15,7 +15,9 @@ export const Freelance = () => {
           <h3 className="text-center mb-10 text-muted-foreground">
             Creative Vision, Executed with Precision.
           </h3>
+        </RevealOnScroll>
 
+        <RevealOnScroll>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:py-10 items-center">
             {photo.map((item) => (
               <img src={item.image} alt="" className="md:block rounded-xl" />
@@ -44,8 +46,8 @@ export const Freelance = () => {
               </div>
             </div>
           </div>
-        </div>
-      </RevealOnScroll>
+        </RevealOnScroll>
+      </div>
     </section>
   );
 };

@@ -2,6 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 import TypewriterText from "../TypewriterText";
 import ShinyText from "../../components/ShinyText";
 
+
 const handleAnimationComplete = () => {
   console.log("All letters have animated!");
 };
@@ -12,6 +13,7 @@ export const Home = () => {
       id="home"
       className="min-h-screen flex items-center justify-center relative"
     >
+      
       <div className="text-center z-10 px-4">
         <RevealOnScroll>
           <ShinyText

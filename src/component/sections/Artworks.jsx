@@ -62,21 +62,22 @@ const graphicDesigns = [
   { id: 44, image: Socmed24 },
   { id: 45, image: Socmed30 },
   { id: 46, image: Socmed27 },
-  
 ];
 
 export const Artworks = () => {
   return (
     <section id="artworks" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
-          Art<span className="text-red-600">works</span>
-        </h2>
+        <RevealOnScroll>
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
+            Art<span className="text-red-600">works</span>
+          </h2>
 
-        <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
-          A collection of my graphic design works crafted with creativity and
-          attention to detail.
-        </p>
+          <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
+            A collection of my graphic design works crafted with creativity and
+            attention to detail.
+          </p>
+        </RevealOnScroll>
 
         {/* GRID */}
         <div className="grid p-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-12">
@@ -101,8 +102,6 @@ export const Artworks = () => {
             </div>
           ))}
         </div>
-
-
       </div>
     </section>
   );

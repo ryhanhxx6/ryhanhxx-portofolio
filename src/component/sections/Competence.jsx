@@ -34,9 +34,13 @@ export const Competence = () => {
         </h2>
 
         <h3 className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto ">
-          Focused on delivering creative and functional design solutions through a strong blend of visual aesthetics, usability, and emerging technologies.
+          Focused on delivering creative and functional design solutions through
+          a strong blend of visual aesthetics, usability, and emerging
+          technologies.
         </h3>
+      </RevealOnScroll>
 
+      <RevealOnScroll>
         <div className="grid grid-cols-2 p-2 sm:grid-cols-4 gap-6 flex justify-center py-16 mt-6 lg:px-60">
           {highlights.map((item, idx) => (
             <div

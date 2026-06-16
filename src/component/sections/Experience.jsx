@@ -7,12 +7,7 @@ const experiences = [
     company: "RED Communication",
     description:
       "I interned at a large creative agency as a graphic designer, handling social media, mainly Instagram for Trakindo, supporting content needs for Xiaomi projects, and etc.",
-    technologies: [
-      "After Effects",
-      "Photoshop",
-      "Premiere",
-      "Social Media"
-    ],
+    technologies: ["After Effects", "Photoshop", "Premiere", "Social Media"],
     current: true,
   },
   {
@@ -21,12 +16,7 @@ const experiences = [
     company: "GAOtek, Inc",
     description:
       "Analyzed user stories to identify key challenges, designed intuitive wireframes and prototypes, refined visuals to hi-fi, and validated usability through testing.",
-    technologies: [
-      "Figma",
-      "Product Design",
-      "Behance",
-      "User Interface",
-    ],
+    technologies: ["Figma", "Product Design", "Behance", "User Interface"],
     current: false,
   },
   {
@@ -67,15 +57,18 @@ export const Experience = () => {
       />
 
       <div className="container mx-auto px-6 relative z-10">
-        <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
-          Carrer <span className="text-red-600">Journey</span>
-        </h2>
+        <RevealOnScroll>
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
+            Carrer <span className="text-red-600">Journey</span>
+          </h2>
 
-        <h3 className="text-center text-muted-foreground mb-28 max-w-2xl mx-auto">
-          A continuous journey of learning, collaboration, and growth through
-          hands-on projects, real-world challenges, and creative
-          problem-solving.
-        </h3>
+          <h3 className="text-center text-muted-foreground mb-28 max-w-2xl mx-auto">
+            A continuous journey of learning, collaboration, and growth through
+            hands-on projects, real-world challenges, and creative
+            problem-solving.
+          </h3>
+        </RevealOnScroll>
+
         <RevealOnScroll>
           <div className="relative">
             <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-primary/70 via-primary/30 to-transparent md:-translate-x-1/2 shadow-[0_0_25px_rgba(255,0,0,0.8)]" />

@@ -69,8 +69,8 @@ const projects = [
 export const Projects = () => {
   return (
     <section id="projects" className="py-24 px-4 relative">
-      <RevealOnScroll>
-        <div className="container mx-auto max-w-6xl">
+      <div className="container mx-auto max-w-6xl">
+        <RevealOnScroll>
           <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
             Featured <span className="text-red-600">Projects</span>
           </h2>
@@ -79,47 +79,49 @@ export const Projects = () => {
             Here are some of my recent projects. Each one was crafted with care,
             focusing on performance and user experience.
           </p>
+        </RevealOnScroll>
+        
+        <RevealOnScroll>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-16">
+          {projects.map((project) => (
+            <div
+              key={project.id}
+              className="glass rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500 "
+            >
+              <a href={project.demoUrl}>
+                <div className="h-max w-full overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-max h-max object-cover rounded-t"
+                  />
+                </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-16">
-            {projects.map((project) => (
-              <div
-                key={project.id}
-                className="glass rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500 "
-              >
-                <a href={project.demoUrl}>
-                  <div className="h-max w-full overflow-hidden">
-                    <img
-                      src={project.image}
-                      alt={project.title}
-                      className="w-max h-max object-cover rounded-t"
-                    />
+                <div className="p-6">
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {project.tags.map((tag, index) => (
+                      <span
+                        key={index}
+                        className="px-2 py-1 text-xs font-medium rounded bg-secondary text-muted-foreground"
+                      >
+                        {tag}
+                      </span>
+                    ))}
                   </div>
 
-                  <div className="p-6">
-                    <div className="flex flex-wrap gap-2 mb-4">
-                      {project.tags.map((tag, index) => (
-                        <span
-                          key={index}
-                          className="px-2 py-1 text-xs font-medium rounded bg-secondary text-muted-foreground"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-
-                    <h3 className="text-xl font-semibold mb-1">
-                      {project.title}
-                    </h3>
-                    <p className="text-muted-foreground text-sm mb-6 ">
-                      {project.description}
-                    </p>
-                  </div>
-                </a>
-              </div>
-            ))}
-          </div>
+                  <h3 className="text-xl font-semibold mb-1">
+                    {project.title}
+                  </h3>
+                  <p className="text-muted-foreground text-sm mb-6 ">
+                    {project.description}
+                  </p>
+                </div>
+              </a>
+            </div>
+          ))}
         </div>
-      </RevealOnScroll>
+        </RevealOnScroll>
+      </div>
     </section>
   );
 };
