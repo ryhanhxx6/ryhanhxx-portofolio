@@ -13,8 +13,6 @@ import { Artworks } from "./component/sections/Artworks";
 import { Freelance } from "./component/sections/Freelance";
 // import { LoadingScreen } from './component/LoadingScreen'
 import "./index.css";
-import ColorBends from "./components/ColorBends";
-
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -22,8 +20,6 @@ function App() {
 
   return (
     <div>
-      <div className="fixed inset-0 -z-10">
-      </div>
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home />
@@ -36,14 +32,6 @@ function App() {
       <Freelance />
       <Contact />
     </div>
-    // <>{!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)}/>}
-    //   <div className={`min-h-screen transition-opacity duration-700" ${
-    //     isLoaded ? "opacity-100": "opacity-0"}
-    //   bg-black text-gray`}
-    //   >
-
-    //   </div>
-    // </>
   );
 }
 
