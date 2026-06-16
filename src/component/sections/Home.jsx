@@ -12,8 +12,8 @@ export const Home = () => {
       id="home"
       className="min-h-screen flex items-center justify-center relative"
     >
-      <RevealOnScroll>
-        <div className="text-center z-10 px-4">
+      <div className="text-center z-10 px-4">
+        <RevealOnScroll>
           <ShinyText
             className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-l from-red-500 to-red-900 bg-clip-text text-transparent leading-right"
             text="Hello"
@@ -26,14 +26,18 @@ export const Home = () => {
             yoyo={false}
             pauseOnHover={false}
             disabled={false}
-          />
+          />{" "}
+        </RevealOnScroll>
 
+        <RevealOnScroll>
           <TypewriterText
             text="Build designs that feel thoughtful, intuitive, and visually engaging."
             speed={60}
             className="text-md mb-8 max-w-3xl mx-auto text-muted-foreground"
           />
+        </RevealOnScroll>
 
+        <RevealOnScroll>
           <div className="flex justify-center space-x-4">
             <a
               href="#projects"
@@ -48,8 +52,8 @@ export const Home = () => {
               Contact Me
             </a>
           </div>
-        </div>
-      </RevealOnScroll>
+        </RevealOnScroll>
+      </div>
     </section>
   );
 };

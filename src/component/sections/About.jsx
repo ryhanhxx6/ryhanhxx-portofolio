@@ -1,21 +1,28 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import Photo from "../img/Photo.jpg";
+import ScrollReveal from "../../components/ScrollReveal";
 
 const photo = [{ id: 1, image: Photo }];
 
 export const About = () => {
   return (
     <section id="about" className="py-24 px-4 relative">
-      <RevealOnScroll>
-        <div className="container mx-auto max-w-6xl">
+      <div className="container mx-auto max-w-6xl">
+        
+        <RevealOnScroll>
           <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
             About <span className="text-red-600"> Me</span>
           </h2>
+        </RevealOnScroll>
 
+        <RevealOnScroll>
           <h3 className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
-            Continuously exploring emerging technologies and design trends to deliver innovative and effective results.
+            Continuously exploring emerging technologies and design trends to
+            deliver innovative and effective results.
           </h3>
+        </RevealOnScroll>
 
+        <RevealOnScroll>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-md text-muted-foreground">
@@ -55,8 +62,9 @@ export const About = () => {
               ))}
             </div>
           </div>
-        </div>
-      </RevealOnScroll>
+        </RevealOnScroll>
+
+      </div>
     </section>
   );
 };

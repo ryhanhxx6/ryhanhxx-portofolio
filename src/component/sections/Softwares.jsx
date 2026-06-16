@@ -87,11 +87,11 @@ const tools = [
   },
   {
     image: S8,
-    title: "ClickUp",
+    title: "Miro",
   },
   {
     image: S14,
-    title: "Miro",
+    title: "ClickUp",
   },
 ];
 
