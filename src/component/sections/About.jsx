@@ -38,7 +38,7 @@ export const About = () => {
               </p>
               <div className="flex justify-left space-x-4">
                 <a
-                  href="https://drive.google.com/file/d/1JrLYX3fRgmZi4Irv-TwOtqEetHxR6KJ3/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1VyWqS5_2aHo9DKRkZxwGTi_6S6OqKbaY/view?usp=sharing"
                   className="bg-red-700 text-white py-3 px-6 rounded-full font-medium transition relative overflow-hidden hover:bg-red-800 transition delay-150"
                 >
                   Download CV
