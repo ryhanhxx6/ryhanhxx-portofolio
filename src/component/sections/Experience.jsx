@@ -1,6 +1,15 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 const experiences = [
+    {
+    period: "Jul 2026 - Present",
+    role: "Banking Staff Operations",
+    company: "PT. Bank Mandiri (Persero) Tbk",
+    description:
+      "",
+    technologies: ["Microsoft Family", "Testing", "Presentation", "Documentation"],
+    current: true,
+  },
   {
     period: "Jan 2026 - Apr 2026",
     role: "Graphic Design Internship",
@@ -8,7 +17,7 @@ const experiences = [
     description:
       "I interned at a large creative agency as a graphic designer, handling social media, mainly Instagram for Trakindo, supporting content needs for Xiaomi projects, and etc.",
     technologies: ["After Effects", "Photoshop", "Premiere", "Social Media"],
-    current: true,
+    current: false,
   },
   {
     period: "Nov 2024 - Jan 2025",
